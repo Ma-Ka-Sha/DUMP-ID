@@ -4,6 +4,8 @@
 
 2 pip install requests bs4
 
-3 cd DUMP-ID
+3 git clone https://github.com/Ma-Ka-Sha/DUMP-ID
 
-4 python run.py
+4 cd DUMP-ID
+
+5 python run.py
