@@ -5,10 +5,10 @@ os.system("git pull")
 
 bit = platform.architecture()[0]
 if "32bit" in bit:
-    from dump_32 import Login
-    Login()
+    import dump
+    dump.Login()
 elif "64bit" in bit:
-    from dump_64 import Login
-    Login()
+    import dump_enc
+    dump_enc.Login()
 else:
     print("[×] Sorry your device is not support")
