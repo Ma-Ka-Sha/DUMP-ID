@@ -8,7 +8,7 @@ if "32bit" in bit:
     import dump
     dump.Login()
 elif "64bit" in bit:
-    import dump_enc
+    import dumpb
     dump_enc.Login()
 else:
     print("[×] Sorry your device is not support")
