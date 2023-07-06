@@ -8,4 +8,4 @@
 
 4 cd DUMP-ID
 
-5 python run.py
+5 python run64.py
